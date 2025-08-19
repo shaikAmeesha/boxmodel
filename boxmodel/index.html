@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food blog</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .first,.second{
+            display: flex;
+            margin-left:8%;
+            height:100%;
+            margin-right:8%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        .first>.img>img,.second>.img2>img{
+            height:70%;
+            width:100%;
+        }
+        .img,.img2{
+            box-sizing: border-box;
+            display:inline-block;
+            height:100%;
+            width:100%;
+            padding: 10px;
+            text-align: center;
+        }
+        .box{
+            display: flex;
+            padding-left:45%;
+        }
+        .box>p{
+            padding:10px;
+            margin-top: 50px;   
+        }
+        .box1{
+            margin:10%;
+            margin-top:80px;
+        }
+         .box1 img{
+            width:80%;
+         }
+         .box p{
+            /* background-color: black; */
+            /* color:white; */
+            /* border:1px solid white; */
+            padding:2%;
+         }
+        
+        .last{
+            display:flex;
+            box-sizing: border-box;
+            margin:10%
+        }
+        .blog{
+            width:100%;
+            box-sizing: border-box;
+        }
+        .blog h3{
+            padding-bottom: 20px;
+        }
+        .post>img{
+            height:50px;
+            width:50px;   
+        }
+        .post{
+            display:flex;
+        }
+        .para>span{
+            display:inline-block;
+            padding:1%;
+            margin:2%;
+            background-color:darkgrey;
+            color:white;
+            border: 2px solid white;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="first">
+        <div class="img">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="sandwich image">
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="img">
+            <img src="https://www.w3schools.com/w3images/steak.jpg" alt="steak image">
+            <h3>Let Me Tell You About This Steak</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="img">
+            <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="cherries image">
+            <h3>Cherries, interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            <p>What else?</p>
+        </div>
+        <div class="img">
+            <img src="https://www.w3schools.com/w3images/wine.jpg" alt="wine image">
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+    <div class="second">
+            <div class="img2">
+                <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="popsicle">
+                <h3>All I Need Is a Popsicle</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="img2">
+                <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="Salmon For Your Skin">
+                <h3>Salmon For Your Skin</h3>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="img2">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="The Perfect Sandwich, A Real Classic">
+                <h3>The Perfect Sandwich, A Real Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="img2">
+                <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="Le French">
+                <h3>Le French</h3>
+                <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>       
+    </div>
+    <div class="box">
+        <p>&lt&lt</p>
+        <p style="background-color: black; color:white;">1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>&gt&gt</p>
+    </div>
+    <div class="box1">
+        <center>
+            <h3>About Me, The Food Man</h3><br>
+            <img src="https://www.w3schools.com/w3images/chef.jpg" alt="man image"><br><br>
+            <h3>I am Who I Am!</h3><br>
+            <p><i>With Passion For Real, Good Food</i></p><br>
+            <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </center>
+    </div>
+    <div class="last">
+        <div class="blog">
+            <h3>FOOTER</h3>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <br>
+            <p>Powered by w3.css</p>
+        </div>
+        <div class="blog" style="padding-left: 20px;">
+            <h3>BLOG POSTS</h3>
+            <div class="post">
+                <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="image">
+                <pre style="padding-left:10px;">
+Lorem
+Sed mattis nunc
+                </pre>
+            </div><br>
+            <hr>
+            <div class="post" style="padding-top:20px;">
+                <img src="https://www.w3schools.com/w3images/gondol.jpg" alt="image2">
+                <pre style="padding-left:10px;">Ipsum
+Praes tinci sed
+                </pre>
+            </div>
+        </div>
+        <div class="blog">
+            <h3>POPULAR TAGS</h3>
+            <div class="para">
+                <span style="background-color: black;">Travel</span>
+                <span>Newyork</span>
+                <span>Dinner</span>
+                <span>Salmon</span>
+                <span>France</span>
+                <span>Drinks</span>
+                <span>Ideas</span>
+                <span>Flavors</span>
+                <span>Cuisine</span>
+                <span>Chicken</span>
+                <span>Dressing</span>
+                <span>Field</span>
+                <span>Fish</span>
+                <span>Duck</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
